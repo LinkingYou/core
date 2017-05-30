@@ -188,7 +188,7 @@ class ItemPersister
             ->set($data)
             ->execute()
             ->insertId;
-        $item->set('id', $itemId);
+        $item->set('id', (string) $itemId);
 
         // Set the variant group equal to the id.
         if ($isNewBaseItem) {
