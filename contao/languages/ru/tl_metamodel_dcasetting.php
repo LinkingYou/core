@@ -8,7 +8,7 @@
  *
  * @license http://www.gnu.org/licenses/lgpl-3.0.html LGPL
  *
- * last-updated: 2015-07-28T12:16:29+02:00
+ * last-updated: 2017-08-04T00:19:05+02:00
  */
 
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['addAll_addsuccess']            = 'Добавлен атрибут "%s" к входному экрану.';
@@ -19,7 +19,6 @@ $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['addall']['0']                  =
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['addall']['1']                  = 'Добавить все атрибуты для входного экрана';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['advanced_legend']              = 'Дополнительно';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['allowHtml']['0']               = 'Не разбирать html-контент.';
-$GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['allowHtml']['1']               = 'Если выбрать, HTML-контент будет сохранен.';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['alwaysSave']['0']              = 'Всегда сохранять';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['alwaysSave']['1']              = 'Если выбрано, поле всегда будет сохранено, даже если его значение не изменилось.';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['attr_id']['0']                 = 'Атрибут';
@@ -50,12 +49,14 @@ $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['legendhide']['1']              =
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['legendtitle']['0']             = 'Название легенды';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['legendtitle']['1']             = 'Здесь можно ввести название легенды.';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['mandatory']['0']               = 'Обязательный';
-$GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['mandatory']['1']               = 'Выберите, если этот атрибут должен быть обязательным.';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['name_langcode']                = 'Язык';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['name_value']                   = 'Название легенды';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['new']['0']                     = 'Новый';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['new']['1']                     = 'Создать новую настройку';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['overview_legend']              = 'Список, фильтрация и сортировка панели управления';
+$GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['pasteafter']['0']              = 'Создать новую настройку сверху';
+$GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['pasteafter']['1']              = 'Создать новый после настройки ID %s';
+$GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['pastenew']['0']                = 'Добавить новый сверху';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['presentation_legend']          = 'Связанные параметры внешнего вида виджета';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['preserveTags']['0']            = 'Не кодировать HTML-теги.';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['preserveTags']['1']            = 'Если выбрать, HTML-теги будут кодированы.';
@@ -84,7 +85,7 @@ $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['stylepicker']                  =
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['subpalette']['0']              = 'Управление подобластями';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['subpalette']['1']              = 'Управление подобластями входного экрана ID %s';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['template']['0']                = 'Пользовательские шаблоны для генерации';
-$GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['template']['1']                = 'Выберите шаблон, который должен использоваться для выбранного атрибута. Имена шаблонов начинаются с "mm_&lt;type&gt;" где имя типа ставится для &lt;type&gt;';
+$GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['template']['1']                = 'Выберите шаблон, который должен использоваться для выбранного атрибута. Названия шаблонов начинаются с "mm_&lt;type&gt;", где название типа ставится для &lt;type&gt;';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['title_legend']                 = 'Тип';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['tl_class']['0']                = 'Класс панели управления';
 $GLOBALS['TL_LANG']['tl_metamodel_dcasetting']['tl_class']['1']                = 'Вы можете задать класс(ы) панели управления. Используйте средство выбора стиля для упрощения.';
